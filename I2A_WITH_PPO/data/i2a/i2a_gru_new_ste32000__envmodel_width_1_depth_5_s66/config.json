@@ -1,0 +1,58 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ]
+    },
+    "clip_ratio":	0.2,
+    "distill_policy":	"MLPActorCritic",
+    "encoder":	"ALTRolloutEncoder",
+    "encoder_size":	32,
+    "env_model":	"EnvModel",
+    "epochs":	400,
+    "exp_name":	"i2a_gru_new_ste32000__envmodel_width_1_depth_5",
+    "extra_info":	{
+        "encoder_size":	32,
+        "imagination_depth":	5,
+        "ip_adress":	"134.91.77.156",
+        "type_rollout":	1
+    },
+    "gamma":	0.99,
+    "i2a":	"I2AActorCritic",
+    "imagination_depth":	5,
+    "intermediate_save_count":	40,
+    "ip":	"134.91.77.156",
+    "ip_adress":	"134.91.77.156",
+    "lam":	0.97,
+    "logger":	{
+        "<PPO_ALG.utils.logx.EpochLogger object at 0x7fdc27921d30>":	{
+            "epoch_dict":	{},
+            "exp_name":	"i2a_gru_new_ste32000__envmodel_width_1_depth_5",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"data/i2a_comparison/i2a_gru_new_ste32000__envmodel_width_1_depth_5/i2a_gru_new_ste32000__envmodel_width_1_depth_5_s66",
+            "output_file":	{
+                "<_io.TextIOWrapper name='data/i2a_comparison/i2a_gru_new_ste32000__envmodel_width_1_depth_5/i2a_gru_new_ste32000__envmodel_width_1_depth_5_s66/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"i2a_gru_new_ste32000__envmodel_width_1_depth_5",
+        "output_dir":	"data/i2a_comparison/i2a_gru_new_ste32000__envmodel_width_1_depth_5/i2a_gru_new_ste32000__envmodel_width_1_depth_5_s66"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.0003,
+    "save_freq":	10,
+    "seed":	66,
+    "steps_per_epoch":	32000,
+    "target_kl":	0.01,
+    "train_dist_iters":	80,
+    "train_pi_iters":	80,
+    "train_v_iters":	80,
+    "type_rollout":	1,
+    "vf_lr":	0.001
+}

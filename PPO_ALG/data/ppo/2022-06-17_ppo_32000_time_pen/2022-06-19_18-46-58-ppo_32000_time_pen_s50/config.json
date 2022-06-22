@@ -1,0 +1,43 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "clip_ratio":	0.2,
+    "epochs":	400,
+    "exp_name":	"ppo_8000_time_pen",
+    "gamma":	0.99,
+    "intermediate_save_count":	40,
+    "lam":	0.97,
+    "logger":	{
+        "<PPO_ALG.utils.logx.EpochLogger object at 0x7fc05cbe34f0>":	{
+            "epoch_dict":	{},
+            "exp_name":	"ppo_8000_time_pen",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"data/ppo_for_eval/2022-06-19_ppo_8000_time_pen/2022-06-19_18-46-58-ppo_8000_time_pen_s50",
+            "output_file":	{
+                "<_io.TextIOWrapper name='data/ppo_for_eval/2022-06-19_ppo_8000_time_pen/2022-06-19_18-46-58-ppo_8000_time_pen_s50/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"ppo_8000_time_pen",
+        "output_dir":	"data/ppo_for_eval/2022-06-19_ppo_8000_time_pen/2022-06-19_18-46-58-ppo_8000_time_pen_s50"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.0003,
+    "save_freq":	10,
+    "seed":	50,
+    "steps_per_epoch":	8000,
+    "target_kl":	0.01,
+    "train_pi_iters":	80,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}

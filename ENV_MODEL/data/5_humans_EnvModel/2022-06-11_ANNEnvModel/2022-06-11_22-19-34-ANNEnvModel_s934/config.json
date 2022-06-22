@@ -1,0 +1,73 @@
+{
+    "Action":	"Action",
+    "Collision":	"Collision",
+    "Discomfort":	"Discomfort",
+    "EnvModel":	"EnvModel",
+    "EpochLogger":	"EpochLogger",
+    "JointState":	"JointState",
+    "LinearStateRewardPredictor":	"LinearStateRewardPredictor",
+    "MLPActorCritic":	"MLPActorCritic",
+    "MixedEnvModel":	"MixedEnvModel",
+    "Nothing":	"Nothing",
+    "OldEnvModel":	"OldEnvModel",
+    "Placeholder":	"Placeholder",
+    "ReachGoal":	"ReachGoal",
+    "Robot":	"Robot",
+    "SubprocVecEnv":	"SubprocVecEnv",
+    "Timeout":	"Timeout",
+    "__annotations__":	{},
+    "__builtins__":	"builtins",
+    "__cached__":	null,
+    "__doc__":	null,
+    "__file__":	"/home/WIN-UNI-DUE/sosiharp/Python Files/MA_Final/ENV_MODEL/train_env_model.py",
+    "__loader__":	{
+        "<_frozen_importlib_external.SourceFileLoader object at 0x7f6def5f7ee0>":	{
+            "name":	"__main__",
+            "path":	"/home/WIN-UNI-DUE/sosiharp/Python Files/MA_Final/ENV_MODEL/train_env_model.py"
+        }
+    },
+    "__name__":	"__main__",
+    "__package__":	null,
+    "__spec__":	null,
+    "a2c_dir":	"/home/WIN-UNI-DUE/sosiharp/Python Files/MA_Final/PPO_ALG/data/5_humans_ppo/2022-06-11_ppo_new_01_pen/2022-06-11_21-05-34-ppo_new_s96/pyt_save/",
+    "a2c_name":	"model400.pt",
+    "autograd":	"torch.autograd",
+    "build_torch_action_space":	"build_torch_action_space",
+    "clear_output":	"clear_output",
+    "exp_name":	"ANNEnvModel",
+    "gym":	"gym",
+    "i2a_config":	"ENVIRONMENT.configs.i2a",
+    "logger":	{
+        "<PPO_ALG.utils.logx.EpochLogger object at 0x7f6daffd8df0>":	{
+            "epoch_dict":	{},
+            "exp_name":	"ANNEnvModel",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"data/5_humans_EnvModel/2022-06-11_ANNEnvModel/2022-06-11_22-19-34-ANNEnvModel_s934",
+            "output_file":	{
+                "<_io.TextIOWrapper name='data/5_humans_EnvModel/2022-06-11_ANNEnvModel/2022-06-11_22-19-34-ANNEnvModel_s934/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"ANNEnvModel",
+        "output_dir":	"data/5_humans_EnvModel/2022-06-11_ANNEnvModel/2022-06-11_22-19-34-ANNEnvModel_s934"
+    },
+    "nn":	"torch.nn",
+    "np":	"numpy",
+    "num_envs":	4,
+    "num_updates":	50000,
+    "optim":	"torch.optim",
+    "osp":	"posixpath",
+    "plt":	"matplotlib.pyplot",
+    "random":	"random",
+    "save_dir":	"data/5_humans_EnvModel/",
+    "seed":	934,
+    "setup_logger_kwargs":	"setup_logger_kwargs",
+    "time":	"time",
+    "torch":	"torch",
+    "transform":	"transform"
+}
